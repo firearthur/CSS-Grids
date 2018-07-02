@@ -13,7 +13,13 @@
       /* grid-template-columns: 30% 20% 50%; */
       /* grid-template-columns: 1fr 2fr 1fr; */
       grid-template-columns: repeat(3, 1fr);
-			max-width: 960px;
+      /* grid-auto-rows: minmax(200px, auto); */
+      /* grid-template-rows: 200px 300px 400px 200px;*/
+      grid-template-rows: repeat(3, minmax(200px, auto));
+      /* grid-column-gap: 10px;
+      grid-row-gap: 10px;			 */
+      grid-gap:10px;
+      max-width: 960px;
 			margin: 0 auto;
 		}
 		#content div{
@@ -31,7 +37,7 @@
 
 		<div>1</div>
 		<div>2</div>
-		<div>3</div>
+		<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum iste, ut officia dolore quod mollitia vero, beatae pariatur facere soluta voluptate quaerat. Id nihil est facilis aperiam et rerum!</div>
 		<div>4</div>
 		<div>5</div>
 		<div>6</div>
